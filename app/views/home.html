@@ -1,0 +1,37 @@
+<div>
+<div class="s-boss">
+		  <div class="s-header">
+		  		<div class="left" onclick="javascript: history.go(-1);">
+		  			<div class="glyphicon glyphicon-chevron-left"></div>
+		  		</div>
+		  		<div class="conter">
+		  			<h1>Surveytime</h1>
+		  		</div>
+		  		<div class="right">
+		  			<img src="images/1.png"/>
+		  		</div>
+		  </div>
+		 <div ui-view></div>
+			<div class="s-footer">
+				<div ng-class="{'sts_color':num == 0}" ui-sref="home.news" class="sts_fo">
+					<p class="glyphicon glyphicon-plus"></p>
+					<span>新建</span>
+				</div>
+				<div ng-class="{'sts_color':num == 1}" ui-sref="home.lists" class="sts_fo">
+					<p class="glyphicon glyphicon-user"></p>
+					<span>我的</span>
+				</div>
+				<div ng-class="{'sts_color':num == 2}" class="sts_fo" ng-click="sts_fo()">
+					<p class="glyphicon glyphicon-cog"></p>
+					<span>设置</span>
+				</div>
+			</div>
+		<div class="sts_fix" ng-hide="fix">
+			<div ng-click="sts_xg()">修改密码</div>
+			<div ng-click="tui()">退出登录</div>
+			<div ng-click="hid()">取消</div>
+		</div>
+		
+	</div>
+	<div class="sts_fixed" ng-hide="fix"></div>
+</div>

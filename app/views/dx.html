@@ -1,0 +1,8 @@
+<div>
+	<div class="s-dx">
+		<p>选项</p>
+		<div ng-repeat="x in arr" >
+			<input class="sts_dx" type="text" placeholder="{{x.op}}" ng-model="x.detail"/><span ng-click="sts_shc($index)" class="sts_sc" >×</span></div>
+		<span ng-click="szd()"><i class="glyphicon glyphicon-plus-sign"></i>添加选项</span>
+	</div>
+</div>

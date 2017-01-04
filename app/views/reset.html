@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="lj-wrap3">
+		<header class="lj-header3">
+			<span ui-sref="home.lists"  class="glyphicon glyphicon-chevron-left"></span>
+			<span>修改密码</span>
+		</header>
+		<div class="lj-content3 height1">
+			<form novalidate name="oForm">
+				<ul class="height1">
+					<li>
+						<div>
+							<span></span>						
+						</div>
+
+						<input type="password" placeholder="输入新密码" ng-model="password" ng-blur="pasBlur()" ng-focus="pasFocus()" class="{{className1}} lj-pas"/>
+					</li>
+					<li>
+						<div>
+							<span></span>	
+						</div>
+						
+						<input type="password" placeholder="请再次输入新密码" ng-model="password1" ng-blur="pas1Blur()" ng-focus="pas1Focus()" class="{{className2}} lj-pas1"/>
+					</li>
+					
+				</ul>
+			</form>
+			
+		</div>
+		<input  ng-click="tijiao()" ng-disabled="oForm.$invalid" value="提交" class="btn btn-info lj-a1" type="submit"/>
+		<div class="lj-xiugai">修改密码成功！</div>
+		<div class="reset_footer"></div>
+	</div>
+</body>
+</html>

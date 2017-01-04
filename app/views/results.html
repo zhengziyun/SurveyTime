@@ -1,0 +1,20 @@
+<div> 
+    <div ng-repeat="x in html2 | unique" class="aa">
+        <div class="daan">
+            <div  class="biaoge">
+                <div class="guanbi" ng-click="guanbi()">x</div>
+                <p class="biaotou">序号<span class="jiange">答案</span></p>
+                <p ng-repeat="s in html2 | unique" class="xh"><span class="xh1">{{$index+1}}</span><span class="xh2" ng-bind-html="s | ntobr | trustHtml">{{s}}</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="zhong">
+        <h4 class="h4">{{dataj.title}}</h4> 
+        <div class="results">
+            <test ng-repeat="x in finalData | dan" type="0" data="x" index="$index"></test>
+            <test ng-repeat="x in finalData | duo" type="1" data="x" index="$index"></test>
+            <test ng-repeat="x in finalData | tian" type="2" data="x" index="$index"></test>
+            <test ng-repeat="x in finalData | jian" type="3" data="x" index="$index"></test>
+        </div>
+    </div>
+</div> 

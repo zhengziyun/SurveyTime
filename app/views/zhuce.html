@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="lj-wrap3">
+		<header class="lj-header3">
+			<span ui-sref="login" class="glyphicon glyphicon-chevron-left"></span>
+			<span>用户注册</span>
+		</header>
+		<div class="lj-content3">
+			<form novalidate name="oForm">
+				<ul>
+					<li>
+						<div>
+							<span></span>
+						</div>
+						
+						<input type="text" placeholder="输入手机号" ng-model="user" ng-blur="userBlur()" ng-focus="userFocus()" class="{{className}}"/>
+					</li>
+					<li>
+						<div>
+							<span></span>						
+						</div>
+
+						<input type="password" placeholder="输入密码" ng-model="password" ng-blur="pasBlur()" ng-focus="pasFocus()" class="{{className1}}" id="pwd" />
+					</li>
+					<li>
+						<div>
+							<span></span>	
+						</div>
+						
+						<input type="password" placeholder="请再次输入密码" ng-model="password1" ng-blur="pas1Blur()" ng-focus="pas1Focus()" class="{{className2}}" id="pwd2"/>
+					</li>
+					<!-- <div class="lj-yanzhengma">  
+		                   
+		                <form action="main.html" onsubmit="return check()">  
+			                <div class="lj-wirte">  
+			                    <input type="text" id="lj-vcode" placeholder="验证码" value="验证码" onfocus="this.value=''" onblur="if(this.value=='')this.value='验证码'"/><span id="lj-code" title="看不清，换一张"></span>
+			                </div>  
+			                		                  
+		                </form>  
+		            </div> -->
+				</ul>
+			</form>
+			<div class="lj-hide">用户名已被注册，换个手机号试试</div>
+		</div>
+		<input  ng-click="zhuce()" ng-disabled="oForm.$invalid" value="注册" class="btn btn-info lj-a3" type="submit"/>
+
+	</div>
+</body>
+</html>

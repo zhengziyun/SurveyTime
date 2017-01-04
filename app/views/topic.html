@@ -1,0 +1,35 @@
+<div>
+	<div class="s-bianji">
+		编辑问卷
+	</div>
+	<div class="s-bt">
+		<div class="s-top">
+			问卷名称：{{ststitle}}
+		</div>
+		<div ui-view></div>
+		<div class="ti">
+			<button ui-sref="home.xt.dx">添加新题</button>
+		</div>
+		<p class="sts_wj" ng-show="sts_wj">*问卷名称为空</p>
+		<p  class="sts_wj" ng-show="sts_wt">*亲，您还没有添加问题</p>
+		<div class="stsalertw">{{stshj}}</div>
+		<button ng-click="bb()">提交</button>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

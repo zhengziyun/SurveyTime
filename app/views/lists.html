@@ -1,0 +1,28 @@
+<div class="y-yin" ng-if="ll" ng-click="xis()"></div>
+<div class="z-shu">
+	<div class="zll-search">
+		<input type="text" ng-model="searchCon"><button class="btn btn-primary btn-sm" ng-click="search()">Search</button>
+	</div>
+	<div class="z-zhu" ng-if="we">
+		<img src="images/hh.png" />
+		<span>您还没有问卷</span>
+	</div>
+	<ul class="list-group" ng-if="as">
+		<shuju ng-repeat="x in data | offset:shu"></shuju>
+	</ul>
+	<ul class="list-group" ng-if="as2">
+		<shuju ng-repeat="x in data | strfilter:searchStr"></shuju>
+	</ul>
+	<nav ng-if="zhu">
+		<ul class="pager" ng-if="pagerShow">
+			<li >
+				<a ng-click="fn()">上一页</a>
+			</li>
+			<li >
+				<a ng-click="fn2()">下一页</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="alertw" ng-click="lon()">{{shj}}</div>
+</div>
+<div ui-view></div>

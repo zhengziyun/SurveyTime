@@ -1,0 +1,16 @@
+<div>
+	<div class="s-t">
+		<div class="s-top">
+			<p>题目</p>
+			<input type="text" ng-model="titl" placeholder="请输入题目标题"/>
+		</div>
+		<div class="s-box">
+		<div ng-repeat="x in sar" class="sts_type" ng-class="{sts_active:$index==0}" ng-click="xxk($index)">{{x}}</div>
+			
+		</div>
+		<div ui-view></div>
+		<span ng-hide="sts_sqq" class="sts_sqq">*请输入题目名称</span>
+		<span ng-hide="sts_sqqq" class="sts_sqqq">*选项不能为空</span>
+		<button ng-click="sque()">确认</button>
+	</div>
+</div>

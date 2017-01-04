@@ -1,0 +1,449 @@
+*{
+  margin:0;
+  padding:0;
+}
+a,a:hover{
+	color:#000;
+}
+html,body{
+			font-size:3.125vw;
+			margin:0;
+			padding:0;
+		}
+		.lj-wrap2{
+			width:100%;
+			min-height:100vh;
+			background:url(../images/lj-beijing.png) no-repeat center;
+			background-size:100% 100%;
+		}
+		.lj-main2{
+			width:85%;
+			height:44.5rem;
+			margin:0 auto;
+			padding-top: 3rem;
+			box-sizing:border-box;
+		}
+		.lj-main2>span{
+			display: block;
+			width:9.8rem;
+			height:9.5rem;
+			margin:0 auto;
+		}
+		img{
+			width:100%;
+		}
+		.lj-content2{
+			width:100%;
+			height:18rem;
+			margin-top: 2rem;
+			font-size:1.2rem;
+		}
+		.lj-input2{
+			width:100%;
+			height:3.8rem;
+			border:0.1rem solid #ccc;
+			border-radius: 0.5rem;
+			background:#fff;
+		}
+		.lj-input2>span{
+			display: inline-block;
+			width:23%;
+			height:3.8rem;
+			line-height: 3.8rem;
+			float:left;
+			padding-left: 1rem;
+			box-sizing:border-box;
+		}
+		.lj-input2>input{
+			width:67%;
+			height:3.6rem;
+			line-height: 3.6rem;
+			border:none;
+			float:left;
+			font-size:1.2rem;
+		}
+		.lj-remember2{
+			width:100%;
+			height:3.5rem;
+			margin-top: 2rem;
+			line-height: 3.5rem
+		}
+		.lj-login2{
+			display: block;
+			width:100%;
+			height:4rem;
+			text-align: center;
+			line-height: 4rem;
+			
+			box-shadow:0rem 0.2rem 4rem 0.2rem #d6d8db;
+		}
+		.lj-main_bar{  
+                width:135.0rem;  
+                height:35.0rem;  
+                background-color:#6495ED;  
+                margin-top:10%;  
+            }         
+            #lj-login_form{  
+                width:40%;  
+                height:100%;  
+                background-color:#112435;  
+                margin:0 auto;  
+            }  
+            .lj-title{  
+                width:100%;  
+                height:5.5rem;  
+                color:#ffffff;  
+                border-bottom:0.1rem solid #ffffff;  
+                /*font-size:20pt;*/  
+                font-family:"微软雅黑";  
+                line-height:5.5rem;  
+                text-align:center;                
+            }  
+            #lj-form_widget{  
+                width:100%;  
+                height:29.5rem;  
+                background-color:#808080;  
+            }  
+            .lj-txt{  
+                display:block;/*设置为独立块（换行）*/  
+                width:70%;  
+                margin:0 auto;  
+                height:3.5rem;  
+                /*font-size:15pt;*/  
+                border-radius:0.5rem;/*设置圆角样式*/  
+                border:0;  
+                padding-left:0.8rem;  
+            }  
+            #lj-vcode{  
+                height:4rem;  
+                width:80%;  
+                font-size:1.2rem;  
+                padding-left: 1rem;
+                border-radius:0.5rem;  
+                border:0.1rem solid #ccc;  
+                float: left;
+                box-sizing:border-box;  
+            }  
+            #lj-code{  
+                color:#ffffff;/*字体颜色白色*/  
+                background-color:#485a79;     
+                font-size:1.2rem;  
+                font-family:"华康娃娃体W5";  
+                
+                height:4rem;
+                line-height: 4rem;       
+                cursor:pointer;
+				float: left;
+				width:20%;
+				text-align: center;
+				box-sizing:border-box;
+            }  
+            #lj-search_pass_link{  
+                width:30%;  
+                text-align:right;  
+                margin:0 auto;  
+                
+                height:3.5rem;
+                line-height:3.5rem;
+                float:right;  
+            }  
+            /*层级选择器*/  
+            #lj-search_pass_link span{  
+                color:#000000;  
+                text-decoration:none;                 
+            }  
+             
+            .lj-btn{  
+                width:70%;  
+                margin-left:15%;  
+                height:4rem;  
+                border:0;  
+                /*font-size:14pt;*/  
+                font-family;"微软雅黑";  
+                background-color:#FC5628;  
+                color:#ffffff;  
+                cursor:pointer;/*设置指针鼠标的样式*/  
+                border-radius:2rem;/*设置圆角样式*/  
+                border:0;  
+            }     
+            #lj-copyright{  
+                width:100%;  
+                text-align:center;  
+                padding-top:2rem;  
+                font-family:"微软雅黑";  
+                color:#e0e0e0;  
+            }
+            .lj-yanzhengma{
+            	width:100%;
+            	height:8rem;
+            	margin-top: 2rem;
+            }
+            .lj-wirte{
+            	width:100%;
+            	height:4rem;
+            }
+            .lj-h1{
+            	width:100%;
+            	height:8rem;
+            	line-height:6rem;
+            	text-align: center;
+            	color:#485a79;
+            	font-size:2.6rem;
+            }
+            .lj-jizhu{
+            	width:40%;
+            	height:3.5rem;
+            	float: left;
+            }
+            .lj-jizhu>input{
+            	margin-top:1rem;
+            }
+            .lj-wrap3{
+			width:100%;
+			height:100vh;
+			background:#efeff4;
+		}
+		.lj-header3{
+			width:100%;
+			height:6rem;
+			line-height: 6rem;
+			background: #9BD8FC;
+			color:#fff;
+			position:relative;
+		}
+		.lj-header3>span:first-child{
+			position:absolute;
+			display: block;
+			width:5.5rem;
+			line-height:5.6rem;
+			left: 1.4rem;
+			font-size:2rem;
+		}
+		.lj-header3>span:last-child{
+			display: inline-block;
+			width:100vw;
+			line-height:6rem;
+			text-align: center;
+			font-size:1.8rem;
+		}
+		.lj-content3{
+			width:100%;
+			height:21rem;
+			background:#fff;
+			margin:5rem 0;
+		}
+		.height1{
+			height:17rem !important;
+		}
+		.lj-zhuce3{
+			width:27rem;
+			height:4rem;
+			background:#21a9f5;
+			margin:0 auto;
+			color:#fff;
+			text-align: center;
+			line-height: 4rem;
+		}
+		.lj-content3 ul{
+			width:100%;
+			height:21rem;
+			margin:0 auto;
+			padding: 2rem 0;
+			border-top:0.2rem solid #ddd;
+			border-bottom:0.2rem solid #ddd;
+		}
+		ul,li,ol{
+			list-style: none;
+		}
+		.lj-content3 ul>li{
+			width:100%;
+			height:4.6rem;
+			line-height: 3.6rem;
+			border-bottom: 0.1rem solid #ddd;
+			box-sizing:border-box;
+			padding-left:0.4rem;
+		}
+		.lj-content3 ul>li>div{
+			width:10%;
+			height:3.6rem;
+			float: left;
+			margin-top:0.8rem;
+		}
+		.lj-content3 ul>li>div>span{
+			display:block;
+			float:left;
+			margin-top: 0.5rem;
+			margin-left:1rem;		
+		}
+		.lj-content3 ul>li>input{
+			float:right;
+			width:87%;
+			border:none;
+			height:3.6rem;
+			border:none;
+			font-size: 1.2rem;
+			margin-top:0.5rem;
+		}
+		.lj-content3 ul>li:first-child>div>span{
+			width:1.2rem;
+			height:2.2rem;
+			background: url(../images/lj-phone.png) no-repeat center;
+			background-size: 100%;
+
+		}
+		.lj-content3 ul>li:nth-child(2)>div>span{
+			width:1.6rem;
+			height:1.4rem;
+			background: url(../images/lj-key.png) no-repeat center;
+			background-size: 100%	
+		}
+		.lj-content3 ul>li:nth-child(3)>div>span{
+			width:1.2rem;
+			height:1.7rem;
+			background: url(../images/lj-key1.png) no-repeat center;
+			background-size: 100%	
+		}
+		.lj-wrap1{
+			width:100%;
+			height:100vh;
+		}
+		.lj-main1{
+			width:85%;
+			height:100vh;
+			margin:0 auto;
+			padding-top: 3rem;
+			box-sizing:border-box;
+		}
+		.lj-main1>span{
+			display: block;
+			width:9.8rem;
+			height:9.5rem;
+			margin:0 auto;
+		}
+		img{
+			width:100%;
+		}
+		.lj-main1>div{
+			width:100%;
+			height:auto;
+			margin-top: 5rem
+		}
+		.lj-main1>div>div{
+			display: block;
+			width:100%;
+			height:4rem;
+			text-align: center;
+			line-height: 4rem;
+			
+			box-shadow:0rem 0.2rem 4rem 0.2rem #d6d8db;
+		}
+		.lj-main1>div>div:last-child{
+			margin-top: 3rem;
+		}
+		.lj-h1{
+            width:100%;
+            height:8rem;
+            line-height:8rem;
+            text-align: center;
+            color:#485a79;
+           }
+           input{
+           	outline: none
+           }
+           .lj-red{
+           	color:red;
+           }
+           
+           .lj-a{
+				width:40% !important;
+	           	height:3rem !important;
+	           	opacity:1 !important;
+	           	margin-right: 1rem;
+	           	float:left;
+           }
+           .lj-a1{
+           		display:block;
+							width:96% !important;
+	           	height:4rem !important;
+	           	opacity:1 !important;
+	           	margin:0 auto;
+           }
+           .lj-a:last-child{
+           		margin:0;
+           		float: right;
+           }
+           .lj-black{
+           	color: #000;
+           }
+           .lj-hide{
+           	width:90%;
+           	height:4rem;
+           	color:#fff;
+           	background:#000;
+           	text-align: center;
+           	line-height:4rem;
+           	border-radius:0.5rem;
+           	position:fixed;
+           	bottom:0;
+           	left:5%;
+           	opacity:0;
+           	font-size:1.4rem;
+           }
+           .lj-show{
+
+           }
+           .lj-user-password{
+           	width:28rem;
+           	height:4rem;
+           	background:#000;
+           	color:#fff;
+           	text-align: center;
+           	line-height: 4rem;
+           	border-radius:0.5rem;
+			position:fixed;
+           	bottom:0%;
+           	left:2rem;
+           	opacity:0;
+           }
+           #code{  
+	        font-family:Arial;  
+	        font-style:italic;  
+	        font-weight:bold;  
+	        border:0;  
+	        letter-spacing:2px;  
+	        color:blue;  
+	        }
+	        .lj-xiugai{
+	        	width:90%;
+	        	height:3rem;
+	        	color:#fff;
+	        	text-align: center;
+	        	line-height: 3rem;
+	        	background:#000;
+	        	border-radius:0.5rem;
+	        	position:fixed;
+	           	bottom:0;
+	           	left:5%;
+	           	opacity:0;
+	        }
+	        .lj-a3{
+	        	width:96%;
+	        	margin:0 auto;
+	        	display:block;
+	        	height:4rem !important;
+	           	
+	        }
+	        .lj-yan{
+	        	width:6%;
+	        	height:1rem;
+	        	float: left;
+	        	margin-top: 1rem
+	        }
+	        .reset_footer{
+	        	width:100vw;
+	        	height:5rem;
+	        	background:#9BD8FC;
+	        	position:fixed;
+						bottom:0;
+						left:0;
+	        }

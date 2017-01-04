@@ -1,0 +1,160 @@
+ html,body,div,ul,li,span,h1{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 3.125vw;
+}
+.h4{
+	padding-top: 1rem;
+	padding-left: 1.4rem;
+	font-size: 1.6rem;
+}
+.zonglan{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+
+}
+.czkbox{
+	width: 30rem !important;
+	height: auto !important;
+	margin: 0 auto 2rem auto;
+	padding: 2rem 0;
+	background: #fff;
+}
+.czkbox>canvas{
+	margin: 0 auto;
+	width: 24rem !important;
+	height: 12rem !important;
+}
+.czkbox2{
+	width: 30rem !important;
+	height: auto !important;
+	margin: 0 auto 2rem auto !important;
+	padding: 1.4rem 0;
+	background:#fff;
+}
+.czkbox2>canvas{
+	margin: 0 auto;
+	width: 14rem !important;
+	height: 14rem !important;
+}
+.tiankong{
+	width: 100%;
+	height: auto;
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+}
+.tiankong{
+	padding-left: 1rem;
+}
+.tiankong p{
+	display: block;
+	font-size: 1.6rem;
+}
+.nei{
+	padding-left: 1.4rem;
+	color: #2babf4;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+.nei2{
+	padding-left: 1.8rem;
+	font-size: 1.4rem;
+	line-height:3rem;
+	background:#fff;
+}
+.moreAws{
+	background:#fff;
+	margin: -0.4rem 0 2rem 0;
+	padding-bottom:0.6rem;
+}
+.czkwt{
+	font-size: 1.4rem;
+	padding-left: 0.6rem;
+	background:#ddd;
+	line-height:3.4rem;
+}
+.zhong{
+	width: 100vw;
+	min-height: 100vh;
+	padding-bottom: 5rem;
+	background: #f3f3f3;
+
+}
+.results>div{
+	width:30rem;
+	margin:0 auto;
+}
+.aa{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.2);
+	position: fixed;
+	top: 4.5rem;
+}
+.daan{
+	width: 80%;
+	height: auto;
+	padding-bottom: 1rem;
+	margin: 0 auto;
+	margin-top: 3rem;
+	background: #fff;
+	opacity: 1;
+	padding-top: 1rem;
+	border-radius: 0.5rem;
+}
+.guanbi{
+	width: 2.2rem;
+    height: 2.2rem;
+    background: #000;
+    position: absolute;
+    top: 2.4rem;
+    right: 2.4rem;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 2.2rem;
+    border-radius: 50%;
+}
+.biaoge{
+	width: 90%;
+	height: auto;
+	margin:0 auto;
+	border-radius: 0.3rem;
+	border-top: 0.1rem solid #ccc;
+	border-left: 0.1rem solid #ccc;
+	border-right: 0.1rem solid #ccc;
+
+}
+.biaotou{
+	font-size: 1.5rem;
+	background:#9BD8FC;
+	color: #fff;
+	padding-left: 0.5rem;
+}
+.jiange{
+	margin-left: 1rem;
+}
+.xh{
+	border-bottom: 0.1rem solid #ccc;
+	background: #DFF2F9;
+	line-height: 1.8rem;
+}
+.xh1{
+	float: left;
+    width: 4rem;
+	text-align: center;
+	overflow: hidden;
+}
+.xh2{
+	padding-left: 4.4rem;
+    width: 22rem;
+    display:block;
+    word-break: break-all;
+}
+.czkti{
+	margin-bottom: 1rem;
+}

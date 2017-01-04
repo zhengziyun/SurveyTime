@@ -1,0 +1,29 @@
+<div class="questionaire_main">
+	<div class="tjsuccess">
+	  <div class="tjsuccess_header">
+	  	问卷调查
+	  </div>
+		<div class="thanks">
+			<div class="smileFace"></div>
+			<p>您的问卷已提交，感谢您的参与！</p>
+		</div>
+		<div class="wh_footer"></div>
+	</div>
+	<div class="zjfWain">您还没有回答该问题 ~~</div>
+	<div class="questionaire_title">
+		<div class="questionaire_logo">
+			<img src="images/zjf_3.png">
+		</div>
+		<h1><span id="shareUrl" class="glyphicon glyphicon-share"></span>问卷调查</h1>
+		<h2>{{zjfdata.title}}</h2>
+	</div>
+		<div class="all_question">
+		<zjfoptionone ng-repeat="key in zjfdata.option | pgmType:0" type="0" zjfd="key" ng-show="opindex == $index"></zjfoptionone>
+		<zjfoptionone ng-repeat="key in zjfdata.option | pgmType:1" type="1" zjfd="key" ng-show="opindex == $index + index1"></zjfoptionone>
+		<zjfoptionone ng-repeat="key in zjfdata.option | pgmType:2" type="2" zjfd="key" ng-show="opindex == $index + index1 + index2"></zjfoptionone>
+		<zjfoptionone ng-repeat="key in zjfdata.option | pgmType:3" type="3" zjfd="key" ng-show="opindex == $index + index1 + index2 +index3" options="options"></zjfoptionone>
+	</div>
+	<div class="questionaire_submit btn btn-warning" ng-click="changeQes()">
+		提交选择
+	</div>
+</div>
